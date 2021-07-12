@@ -1,0 +1,67 @@
+﻿<link rel="stylesheet" href="~/Content/styles.css" />
+<script src="~/Scripts/CF1P.js" defer></script>
+
+@{
+    ViewBag.Title = "One-Player Connect Four";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<h4>The current Player is: <span id="current-player">1</span></h4>
+
+<div class="grid">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+    <div class="taken"></div>
+</div>
+
+<div class="winning-message" id="winningMessage">
+    <div data-winning-message-text></div>
+    <button id="restartButton">Restart</button>
+</div>
